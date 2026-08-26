@@ -1,17 +1,31 @@
 aid: saphlux
 name: Saphlux
-description: 'Saphlux is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Saphlux is a quantum dot Micro-LED (QD-MLED) display technology company founded
+  in 2014 out of Yale University and headquartered in San Diego, California, with additional
+  operations in China and Japan. It commercialized semi-polar (20-21) GaN-on-sapphire epitaxial
+  wafers to address efficiency droop and the green gap in nitride emitters, and now mass-produces
+  NPQD quantum-dot Micro-LED devices. Its product lineup spans QD-COB and QD-COB Pro Series
+  panels for large-format commercial and home-theater displays and the T-Series monolithic
+  full-color micro-displays for all-day wearable AR eyewear and AI smart glasses. Saphlux is a
+  semiconductor materials and display-module manufacturer that sells hardware to OEMs and
+  display integrators; it publishes no public developer program, API, or SDK.'
+image: https://static1.squarespace.com/static/60f70a871d58107fff2b086c/t/6511e9a071a8b360ae17c10e/1695672736192/logo.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/saphlux/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Semiconductors
+- Displays
+- Micro-LED
+- Quantum Dots
+- Hardware
+- Augmented Reality
+- Optoelectronics
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +33,49 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/saphlux-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.saphlux.com/
+- type: Blog
+  url: https://www.saphlux.com/blog-3
+- type: BlogRSS
+  url: https://www.saphlux.com/blog-3?format=rss
+- type: Support
+  url: https://www.saphlux.com/contact
+- type: TermsOfService
+  url: https://www.saphlux.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.saphlux.com/privacy-policy
+- type: LLMsTxt
+  url: llms/saphlux-llms.txt
+- type: Plans
+  url: plans/saphlux-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/saphlux-rate-limits.yml
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Saphlux is a semiconductor materials and display-module manufacturer — it sells semi-polar
+    (20-21) GaN-on-sapphire epitaxial wafers and NPQD quantum-dot Micro-LED panels to display
+    OEMs — and its entire public surface is a four-item Squarespace marketing site (Home /
+    Products / Newsroom / Contact) whose 150-URL sitemap contains no developer, docs, or API
+    reference page at all.
+  evidence:
+  - url: https://www.saphlux.com/sitemap.xml
+    status: 200
+  - url: https://www.saphlux.com/developers
+    status: 404
+  - url: https://www.saphlux.com/openapi.json
+    status: 404
+  - url: https://www.saphlux.com/llms.txt
+    status: 404
+  - url: https://www.saphlux.com/.well-known/agent-card.json
+    status: 404
+  checked: '2026-08-26'

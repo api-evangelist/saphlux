@@ -64,5 +64,10 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Saphlux is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Saphlux is a quantum dot Micro-LED (QD-MLED) display technology company founded in 2014 out of Yale University and headquartered in San Diego, California, with additional operations in China and Japan. It commercialized semi-polar (20-21) GaN-on-sapphire epitaxial wafers to address efficiency droop and the green gap in nitride emitters, and now mass-produces NPQD quantum-dot Micro-LED devices. Its product lineup spans QD-COB and QD-COB Pro Series panels for large-format commercial and home-theater displays and the T-Series monolithic full-color micro-displays for all-day wearable AR eyewear and AI smart glasses.
+
+**No API surface.** Saphlux is a semiconductor materials and display-module manufacturer that sells hardware to OEMs and display integrators. As of 2026-08-26 it publishes no public developer program, API, documentation, SDK or machine-readable specification. Contract discovery probed the API/docs host root for OpenAPI, `llms.txt`, GraphQL, MCP and A2A agent-card paths and the full `/.well-known/` set; every one returned HTTP 404, and the site's 150-URL sitemap contains no developer or reference page. See `apis.yml` `x-coverage` for the evidence.
+
+- https://www.saphlux.com/
+- https://www.saphlux.com/blog-3
+- https://www.saphlux.com/contact

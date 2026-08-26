@@ -1,0 +1,12 @@
+generated: '2026-08-26'
+method: searched
+source: https://www.saphlux.com/sitemap.xml
+limit_count: 0
+rate_limits: []
+note: >-
+  No rate limits are published because Saphlux publishes no API. Contract discovery on 2026-08-26
+  probed https://www.saphlux.com/openapi.json, /api, /developers, /llms.txt and the full
+  /.well-known/ set; every path returned HTTP 404 and the sitemap exposes no developer, docs or
+  API reference page. There is no runtime surface to signal limits on, so no headers
+  (X-RateLimit-*, RateLimit-*, Retry-After) and no exhaustion status code can be recorded.
+  limit_count 0 is a measured absence, not an unchecked field.

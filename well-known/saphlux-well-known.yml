@@ -1,0 +1,33 @@
+generated: '2026-08-26'
+method: probed
+source: live HTTPS probes of https://www.saphlux.com/.well-known/* (2026-08-26)
+note: >-
+  Every probed /.well-known/ path is absent. www.saphlux.com is a Squarespace-hosted
+  marketing site: the platform answers /.well-known/security.txt with a JSON
+  {"message":"security.txt not found"} body under HTTP 404, and every other path with the
+  site's HTML 404 page. No document was returned on any path, so NO WellKnown or SecurityTxt
+  pointer is wired in apis.yml — this file records a verified absence, not a presence.
+hosts:
+- host: www.saphlux.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null

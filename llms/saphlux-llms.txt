@@ -1,0 +1,41 @@
+# Saphlux
+
+> Saphlux is a quantum dot Micro-LED (QD-MLED) display technology company founded in 2014 out of
+> Yale University, headquartered in San Diego, California, with operations in China and Japan. It
+> commercialized semi-polar (20-21) GaN-on-sapphire epitaxial wafers and now mass-produces NPQD
+> quantum-dot Micro-LED devices for large-format commercial displays and wearable AR micro-displays.
+
+Saphlux is a semiconductor materials and display-module manufacturer. It sells hardware and
+epitaxial wafers to display OEMs and integrators. As of 2026-08-26 it publishes **no public API,
+no developer portal, no SDK, no machine-readable specification and no MCP or agent surface**. There
+is nothing here for a software integrator to call; the commercial motion is a hardware sales
+conversation through the contact page below.
+
+## Products
+
+- [AR Micro-LED Display](https://www.saphlux.com/): T-Series monolithic full-color Micro-LED
+  micro-displays for all-day wearable AR devices and AI smart glasses.
+- [Quantum Dot COB Display](https://www.saphlux.com/): QD-COB and QD-COB Pro Series chip-on-board
+  panels for >100-inch commercial and home-theater displays.
+- [Technology](https://www.saphlux.com/technology): semi-polar (20-21) GaN on sapphire, NPQD
+  nanopore quantum-dot color conversion, monolithic full-color integration.
+
+## Company
+
+- [Home](https://www.saphlux.com/)
+- [Newsroom / Blog](https://www.saphlux.com/blog-3): product releases and press announcements.
+- [Newsroom RSS](https://www.saphlux.com/blog-3?format=rss)
+- [Contact](https://www.saphlux.com/contact): info@saphlux.com — 12520 High Bluff Drive, Suite 135,
+  San Diego, CA 92130, United States.
+- [Terms of Service](https://www.saphlux.com/terms-of-service)
+- [Privacy Policy](https://www.saphlux.com/privacy-policy)
+
+## Optional
+
+- [API Evangelist profile](https://apis.io/provider/saphlux): independent third-party profile of
+  this company's public API surface. No API surface was found.
+
+---
+generated: 2026-08-26
+method: generated
+source: apis.yml + https://www.saphlux.com/ (the provider serves no /llms.txt; HTTP 404 on 2026-08-26)
