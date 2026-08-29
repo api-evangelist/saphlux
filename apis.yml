@@ -9,6 +9,17 @@ description: 'Saphlux is a quantum dot Micro-LED (QD-MLED) display technology co
   full-color micro-displays for all-day wearable AR eyewear and AI smart glasses. Saphlux is a
   semiconductor materials and display-module manufacturer that sells hardware to OEMs and
   display integrators; it publishes no public developer program, API, or SDK.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://static1.squarespace.com/static/60f70a871d58107fff2b086c/t/6511e9a071a8b360ae17c10e/1695672736192/logo.png?format=1500w
 url: https://raw.githubusercontent.com/api-evangelist/saphlux/refs/heads/main/apis.yml
 x-type: company
