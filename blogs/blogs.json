@@ -1,0 +1,21 @@
+{
+  "repo": "saphlux",
+  "feeds": [
+    {
+      "source": "https://www.saphlux.com/",
+      "feed_url": "https://www.saphlux.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.saphlux.com/blog-3",
+      "feed_url": "https://www.saphlux.com/blog-3?format=rss",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-30T22:33:40Z"
+}
